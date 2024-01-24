@@ -11,7 +11,8 @@
 
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [kelveden/clj-wiremock "1.8.0"]
-                 [potemkin "0.4.6"]]
+                 [potemkin "0.4.6"]
+                 [camel-snake-kebab "0.4.2"]]
 
   :plugins [[lein-cloverage "1.2.3"]
             [lein-shell "0.5.0"]
