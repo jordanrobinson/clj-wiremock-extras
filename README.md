@@ -2,7 +2,21 @@
 
 Extras, helpers and convenience methods for [clj-wiremock](https://github.com/kelveden/clj-wiremock).
 
-[![Clojars Project](https://img.shields.io/clojars/v/uk.co.jordanrobinson/clj-wiremock-extras.svg)](https://clojars.org/uk.co.jordanrobinson/awaitility-clj)
+[![Clojars Project](https://img.shields.io/clojars/v/uk.co.jordanrobinson/clj-wiremock-extras.svg)](https://clojars.org/uk.co.jordanrobinson/clj-wiremock-extras)
+
+## Add to your project
+
+```clojure
+  project.clj
+
+  ...
+
+  :dependencies [[org.clojure/clojure "1.11.1"]
+                 [kelveden/clj-wiremock "1.8.0"]
+                 [ "0.4.2"]]
+
+  ...
+```
 
 ## Examples
 
