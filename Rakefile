@@ -8,8 +8,6 @@ require_relative 'lib/leiningen_task_set'
 
 task default: %i[library:check library:test:unit]
 
-RakeFly.define_installation_tasks(version: '7.9.0')
-
 RakeLeiningen.define_installation_tasks(
   version: '2.10.0'
 )

@@ -12,7 +12,7 @@ Extras, helpers and convenience methods for [clj-wiremock](https://github.com/ke
   ...
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [kelveden/clj-wiremock "1.8.0"]
-                 [uk.co.jordanrobinson/clj-wiremock-extras "0.0.6"]]
+                 [uk.co.jordanrobinson/clj-wiremock-extras "0.0.7"]]
   ...
 ```
 
