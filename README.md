@@ -10,13 +10,13 @@ Extras, helpers and convenience methods for [clj-wiremock](https://github.com/ke
   project.clj
 
   ...
-
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [kelveden/clj-wiremock "1.8.0"]
-                 [ "0.4.2"]]
-
+                 [uk.co.jordanrobinson/clj-wiremock-extras "0.0.5"]]
   ...
 ```
+
+Deps, Maven, Gradle, etc methods shown on [clojars.](https://clojars.org/uk.co.jordanrobinson/clj-wiremock-extras)
 
 ## Examples
 
