@@ -1,11 +1,7 @@
 # frozen_string_literal: true
 
 require 'rake_leiningen'
-require 'rake_terraform'
-require 'rake_vault'
-require 'vault'
 require 'yaml'
-require 'rake_fly'
 require 'uri'
 
 require_relative 'lib/leiningen_task_set'
@@ -17,20 +13,6 @@ RakeFly.define_installation_tasks(version: '7.9.0')
 RakeLeiningen.define_installation_tasks(
   version: '2.10.0'
 )
-
-RakeVault.define_installation_tasks(
-  path: File.join(Dir.pwd, 'vendor', 'vault'),
-  version: '1.11.2'
-)
-
-namespace :vault do
-  RakeVault.define_login_task(
-    argument_names: [:role, :address],
-  ) do |t, args|
-    t.address = args[:address]
-    t.role = args[:role] || 'read-only'
-  end
-end
 
 namespace :library do
   define_check_tasks(fix: true)
